@@ -117,5 +117,8 @@
         "node": "20.1.0",
         "npm": "8.19.4"
     },
-    "gitHead": "d48a5cf89a62a62d6c6ed53ffa18f070d9458b85"
+    "gitHead": "d48a5cf89a62a62d6c6ed53ffa18f070d9458b85",
+    "dependencies": {
+        "readline-sync": "^1.4.10"
+    }
 }

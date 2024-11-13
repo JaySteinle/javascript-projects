@@ -34,7 +34,7 @@ function generatePassword(string1, string2) {
   let code = '';
 
   /// Code your Bonus Mission Solution here ///
-
+console
   return code;
 }
 
