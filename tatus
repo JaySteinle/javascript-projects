@@ -1,0 +1,271 @@
+[33mcommit e8f6536d1c7c6c3dbc10725dcfd2aac5174e7488[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Jay Steinle <jay.steinle62@gmail.com>
+Date:   Sat Dec 28 22:20:18 2024 -0600
+
+    Second Commit
+
+[33mcommit c6e5d8348fe5fa2e0c9ca4109f3d6178d7c45f5f[m
+Author: Jay Steinle <jay.steinle62@gmail.com>
+Date:   Thu Dec 26 10:51:55 2024 -0600
+
+    Final
+
+[33mcommit bfea6e1c3cec8c0820cd2fdf4098884ccabadebc[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jay Steinle <jay.steinle62@gmail.com>
+Date:   Wed Dec 25 22:03:09 2024 -0600
+
+    commit 2
+
+[33mcommit 1814b5b8e65f557d38165baab02129477a96be68[m
+Author: Jay Steinle <jay.steinle62@gmail.com>
+Date:   Wed Dec 25 21:27:51 2024 -0600
+
+    first commit
+
+[33mcommit 234f29f6639e9cbc4703a9cc38f22c25c958bbef[m
+Author: Jay Steinle <jay.steinle62@gmail.com>
+Date:   Wed Dec 25 12:43:07 2024 -0600
+
+    tryCatch
+
+[33mcommit 5ba657cc65ae54134fca71676689e6a137fa2625[m
+Author: Jay Steinle <jay.steinle62@gmail.com>
+Date:   Wed Dec 25 12:29:43 2024 -0600
+
+    divide
+
+[33mcommit f62e6b6f3303f8309dfd25a8e0f95836dde27d29[m
+Author: Jay Steinle <jay.steinle62@gmail.com>
+Date:   Sun Nov 17 21:05:25 2024 -0600
+
+    asdfghjkl
+
+[33mcommit 7ee4e5bd0bfd5eaee0a4f71ac46d8ecb2ae7d0ec[m
+Author: Jay Steinle <jay.steinle62@gmail.com>
+Date:   Wed Nov 13 13:05:21 2024 -0600
+
+    asdfghjkl
+
+[33mcommit 09a66d894e939ff7e3e3a6717e269d529e6c8778[m
+Author: Jay Steinle <jay.steinle62@gmail.com>
+Date:   Wed Nov 6 14:56:18 2024 -0600
+
+    OK
+
+[33mcommit 9e88293e66e935cdb359c770b18b26b41034c95d[m
+Merge: 9803b43 f473f59
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Thu May 23 10:51:44 2024 -0500
+
+    Merge pull request #48 from LaunchCodeEducation/bug-stomp-5-23
+    
+    Bug stomp 5 23
+
+[33mcommit f473f592842a9f5cbbfedecf748a2aac82a610e2[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Thu May 23 10:37:49 2024 -0500
+
+    fixed typo
+
+[33mcommit c8e53bc4af3964c1b52d82db7b55ed9bd182fdde[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Thu May 23 10:14:36 2024 -0500
+
+    fixed spacing on comments
+
+[33mcommit 90158cc18aa47e4b9bf17380e741fba9cdb00f8b[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Thu May 23 10:08:32 2024 -0500
+
+    added more detail for part 3 of studio
+
+[33mcommit c3f51a4cabac12f6a22051c9f6ae5e0161e6b573[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Thu May 23 09:51:32 2024 -0500
+
+    added package.json with readline-sync
+
+[33mcommit 9803b4302419b9c251718aaaaddf5d4863371b61[m
+Merge: bb11c6c fd02b7c
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Thu Mar 28 10:53:10 2024 -0500
+
+    Merge pull request #43 from LaunchCodeEducation/chapter-25-issues
+    
+    Chapter 25 issues
+
+[33mcommit bb11c6cb6ea391c0432ee6bd5ff26c6b7c28b8a4[m
+Merge: 61e3d31 68dc67b
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Thu Mar 28 10:52:15 2024 -0500
+
+    Merge pull request #42 from LaunchCodeEducation/chapter-21-issues
+    
+    updated style href link
+
+[33mcommit 61e3d3128858b144484ee176ef1a99a0accb25d0[m
+Merge: abe8c86 e00825a
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Thu Mar 28 10:48:26 2024 -0500
+
+    Merge pull request #41 from LaunchCodeEducation/chapter-12-issues
+    
+    added comment for method section of exercises
+
+[33mcommit fd02b7cab9265570f24549e2c92f889a6de99faf[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Thu Mar 28 10:09:05 2024 -0500
+
+    removed reference to repl.it
+
+[33mcommit 68dc67b242b373bce376af577e7305e2ed8d0256[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Thu Mar 28 09:50:32 2024 -0500
+
+    updated style href link
+
+[33mcommit e00825ab53d552cda1efcce5051ae63d98485aa9[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Thu Mar 28 09:14:48 2024 -0500
+
+    added comment for method section of exercises
+
+[33mcommit abe8c86157558e6ffa509b2b9501cae60d4bcc49[m
+Merge: 79489f8 211b8cc
+Author: Sally Steuterman <sally.steuterman@gmail.com>
+Date:   Wed Nov 29 13:02:39 2023 -0600
+
+    Merge pull request #33 from LaunchCodeEducation/node20
+    
+    Migrating to Node 20
+
+[33mcommit 211b8ccd2674fcad668839a8feb82767ac272cdd[m
+Author: Sally Steuterman <sally.steuterman@gmail.com>
+Date:   Mon Nov 27 13:24:26 2023 -0600
+
+    Migrating to Node 20
+
+[33mcommit 79489f80227a0603dc2fb1e0744ee7641f6b88bb[m
+Merge: 6578185 7cb367a
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Fri Oct 27 09:22:44 2023 -0500
+
+    Merge pull request #28 from LaunchCodeEducation/jwoolbright23-patch-1
+    
+    Update part-one-arrays.js comments
+
+[33mcommit 7cb367a38e9ad13314bc3745d5b449a1868c73df[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Tue Oct 24 14:07:07 2023 -0500
+
+    Update part-one-arrays.js comments
+
+[33mcommit 657818546dc7228af608b88219fe3ab2ae3f0b9b[m
+Merge: 4692477 0ca8e17
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Tue Oct 17 14:15:01 2023 -0500
+
+    Merge pull request #25 from LaunchCodeEducation/user-input-with-forms
+    
+    User input with forms
+
+[33mcommit 46924779f5911511a8ff2d977ccad9c636ad277c[m
+Merge: e9ee479 c701868
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Tue Oct 17 14:14:51 2023 -0500
+
+    Merge pull request #27 from LaunchCodeEducation/chapter-27-fetch
+    
+    Chapter 27 fetch
+
+[33mcommit c701868ddffdd9acf81bac311d09703f563a5733[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Mon Oct 16 10:50:27 2023 -0500
+
+    studio starter code
+
+[33mcommit 09fdc82404c8b1f36d78e94bb91db9f1211c9caa[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Mon Oct 16 10:31:01 2023 -0500
+
+    fetch chapter added with chapter-examples
+
+[33mcommit 0ca8e17c79ebc5e634897011c1c1acb6ce4e479e[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Tue Oct 10 12:57:51 2023 -0500
+
+    added remaining examples
+
+[33mcommit f7ea03081622527b3f35f72acd0b5a613b8d589f[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Mon Oct 9 15:50:28 2023 -0500
+
+    exercises and studio for user input
+
+[33mcommit 47364289df9950362da7e77b06ea3748eab39c60[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Mon Oct 9 11:07:17 2023 -0500
+
+    initial user-input-with-forms content
+    
+    need to add additional chapter examples, exercises, and studio code
+
+[33mcommit e9ee4794d192151f94bfc82e332ffce8adc798c3[m
+Merge: 36be95c f2c92ee
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Wed Oct 4 12:42:06 2023 -0500
+
+    Merge pull request #22 from LaunchCodeEducation/dom-and-events
+    
+    Dom and events
+
+[33mcommit f2c92eeb2d228b688031ae7152c79ee91bee9f68[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Tue Oct 3 11:27:36 2023 -0500
+
+    added starter code for studio to dom-and-events
+
+[33mcommit 29099a0c9b27d61ec7eef7ddd98fe4f0fdfcc723[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Tue Oct 3 11:23:01 2023 -0500
+
+    added dom-and-events directory with exercises
+
+[33mcommit 36be95c67064095bbbb24a9080443ed8779023cd[m
+Merge: d3cefa9 1e86510
+Author: Sally Steuterman <sally.steuterman@gmail.com>
+Date:   Mon Oct 2 16:11:05 2023 -0500
+
+    Merge pull request #19 from LaunchCodeEducation/ch-20-html
+    
+    Chapter 20: HTML
+
+[33mcommit d3cefa98c97665d1f624950a5ff8e095634155a3[m
+Merge: 24a0e49 b1426e0
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Mon Oct 2 10:44:42 2023 -0500
+
+    Merge pull request #21 from LaunchCodeEducation/terminal-appendices
+    
+    added terminal-commands directory for appendices walkthrough
+
+[33mcommit b1426e0e95d806b7be4371d35b43ef962d7cdf34[m
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Mon Oct 2 10:43:58 2023 -0500
+
+    added terminal-commands directory for appendices walkthrough
+
+[33mcommit 24a0e4957a2bd8436b9d469cf1a4208a8dd66224[m
+Merge: b0535f1 7ddffa2
+Author: John Woolbright <jwoolbright23@gmail.com>
+Date:   Mon Oct 2 10:15:26 2023 -0500
+
+    Merge pull request #18 from LaunchCodeEducation/styling-css
+    
+    Styling css
+
+[33mcommit 1e86510c17c3dcedffa84421812a25929501b0dc[m
+Author: Sally Steuterman <sally.steuterman@gmail.com>
+Date:   Tue Sep 26 13:33:29 2023 -0500
+
+    Sta

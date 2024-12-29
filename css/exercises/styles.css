@@ -1,1 +1,24 @@
 /* Start adding your styling below! */ 
+body {
+    background-color: yellow;
+}
+
+p {
+    color: green;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.center{
+    text-align: center;
+}
+
+#cool-text{
+    color: blue;
+}
+
+#list-color{
+    color: red;
+}

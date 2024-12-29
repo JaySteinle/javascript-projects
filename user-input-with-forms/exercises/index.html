@@ -7,8 +7,56 @@
       label { display: block; margin-bottom: 7px;}
     </style>
   </head>
+  
+  <script>
+    window.addEventListener("load", function() {
+      let form = document.querySelector("form");
+      form.addEventListener("submit", function(event) {
+      let testName = document.querySelector("input[name=testName]");
+      let testDate = document.querySelector("input[name=testDate]");
+      let rocketType = document.querySelector("select[name=rocketType]");
+      let boosterCount = document.querySelector("input[name=boosterCount]");
+      let windRating = document.querySelector("input[name=windRating]:checked");
+
+      if (testName.value === "" || testDate.value === "" || rocketType.value === "" || boosterCount.value === "" || parseInt(boosterCount.value) <= 0 || !windRating) {
+        alert("All fields are required!");
+        // stop the form submission
+        event.preventDefault();;
+        }
+      });
+    });
+    </script>
   <body>
     <!-- TODO: add form here -->
+     <form action="https://handlers.education.launchcode.org/request-parrot" method="POST">
+
+      <label>Test Name <input type="text" name="testName"/></label>
+
+      <label>Test Date <input type="date" name="testDate"/></label>
+      
+      <label>Rocket Type:
+        <select name="rocketType">
+          <option value=""></option>
+          <option value="Brant">Brant</option>
+          <option value="Lynx">Lynx</option>
+          <option value="Orion">Orion</option>
+          <option value="Terrier">Terrier</option>
+        </select>
+      </label>
+      
+      <label>Number of Booster Rockets <input type="number" name="boosterCount" min="1" max="9"/></label>
+
+      Wind Rating:
+      <label>No Wind <input type="radio" name="windRating" value="0"/></label>
+      <label>Mild <input type="radio" name="windRating" value="10"/></label>
+      <label>Strong <input type="radio" name="windRating" value="20"/></label>
+
+      <label>Use Production Grade Servers <input type="checkbox" name="productionServers"/></label>
+
+      <button>Run Simulation</button>
+
+
+     </form>
   </body>
   
 </html>
