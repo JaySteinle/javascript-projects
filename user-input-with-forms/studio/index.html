@@ -2,18 +2,156 @@
 
 <head>
 	<meta charset="utf-8">
-	<script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #searchForm {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #searchForm label {
+            display: block;
+            margin-bottom: 12px;
+            font-weight: bold;
+            width: 100%;
+        }
+        #searchForm label[for="q"] {
+            margin-bottom: 3px;
+        }
+        #searchForm input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 8px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+            
+        }
+        #searchForm input[type="radio"] {
+            margin-right: 15px;
+        }
+        #searchForm button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #searchForm button:hover {
+            background-color: #0056b3;
+        }
+        hr {
+            width: 90%;
+            border:0;
+            border-top: 1px solid #ccc;
+            margin: 20px;
+        }
+    </style>
+    <script>
+		let searchEngines = {
+            google: "https://www.google.com/search",
+            duckduckgo: "https://duckduckgo.com/",
+            bing: "https://www.bing.com/search",
+            ask: "https://www.ask.com/web"
+        };
+
+		// TODO: register the handler
+		let setSearchEngine = function(event){
+            console.log("Handler called"); // Debugging statement
+            let searchForm = document.querySelector("#searchForm");
+            let searchEngine = document.querySelector("input[name=engine]:checked");
+            let searchInput = document.querySelector("#q");
+            if (!searchEngine || searchInput.value === "") {
+                alert("Please select a search engine and enter a search term.");
+                event.preventDefault();
+            } else {
+                let actionUrl;
+                let queryParam;
+                switch (searchEngine.id) {
+                    case "google":
+                        actionUrl = searchEngines.google;
+                        queryParam = "q";
+                        break;
+                    case "duckduckgo":
+                        actionUrl = searchEngines.duckduckgo;
+                        queryParam = "q";
+                        break;
+                    case "bing":
+                        actionUrl = searchEngines.bing;
+                        queryParam = "q";
+                        break;
+                    case "ask":
+                        actionUrl = searchEngines.ask;
+                        queryParam = "q";
+                        break;
+                    default:
+                        actionUrl = searchEngines.google;
+                        queryParam = "q";
+                }
+                console.log("Search engine selected:", searchEngine.id); // Debugging statement
+                searchForm.setAttribute("action", actionUrl);
+                searchInput.setAttribute("name", queryParam);
+            }
+        }
+
 		// TODO: create a handler
-    window.addEventListener("load", function(){
-        // TODO: register the handler
-    });
-	</script>
+		window.addEventListener("load", function(){
+			console.log("Window loaded"); // Debugging statement
+			let searchForm = document.querySelector("#searchForm");
+			if (searchForm) {
+				searchForm.addEventListener("submit", setSearchEngine);
+				console.log("Event listener added"); // Debugging statement
+			} else {
+				console.error("Form not found"); // Debugging statement
+			}
+		});
+    </script>
+	
 </head>
 
-<body>
+	<body>
+		<form id="searchForm" method="get"><!--</form>action="https://handlers.education.launchcode.org/request-parrot">-->
+		
+			<!-- TODO: add form elements -->
+			<label>
+                <label for="q">Search:</label>
+			<input id="q" type="text" name="q"/></label>
 
-	<form id="searchForm">
-    <!-- TODO: add form elements -->
-	</form>
+            <hr> <!-- Separator between search input and radio buttons -->
+            
+			<label>
+                <input id="google" type="radio" name="engine" value="google"/>Google
+            </label>
 
-</body>
+			<label>
+                <input id="duckduckgo" type="radio" name="engine" value="duckduckgo"/>DuckDuckGo
+			</label>
+				
+			<label>
+                <input id="bing" type="radio" name="engine" value="bing"/>Bing
+            </label>
+
+			<label>
+                <input id="ask" type="radio" name="engine" value="ask">Ask
+            </label>
+
+			<button type="submit" value="Go!">Go</button>
+		</form>
+	</body>
+</html>
