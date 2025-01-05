@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>Fetch Planets</title>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                fetch("https://handlers.education.launchcode.org/static/planets.json").then(function(response){
+                    response.json().then(function(json) {
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Destination</h1>
+        <div id="destination">
+            <h3>Planet</h3>
+        </div>
+    </body>
+</html>
