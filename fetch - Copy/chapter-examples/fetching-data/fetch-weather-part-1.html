@@ -5,12 +5,9 @@
     <title>Launch Status</title>
     <script>
       window.addEventListener("load", function() {
-          fetch("https://handlers.education.launchcode.org/static/weather.json").then( function(response) {
-              // Access the JSON in the response
-              response.json().then( function(json) {
-                console.log(json);
-              });
-          });
+        fetch("https://handlers.education.launchcode.org/static/weather.json").then( function(response) {
+            console.log(response);
+        } );
       });
     </script>
   </head>
@@ -19,6 +16,7 @@
         Weather Conditions
         <div id="weather-conditions">
           <!-- TODO: dynamically add html about weather using data from API -->
+           
         </div>
   </body>
 </html>

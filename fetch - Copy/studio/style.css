@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.astronaut {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+.bio {
+    text-align: left;
+}
+
+.avatar {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.astronaut {
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
