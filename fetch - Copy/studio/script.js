@@ -81,25 +81,40 @@ window.onload = function() {
         }
     ];
 
+    // Sort astronauts by hours in space in descending order
+    astronauts.sort((a, b) => b.hoursInSpace - a.hoursInSpace);
+
+
     const container = document.getElementById("container");
 
+    // Add a count of astronauts
+    const countDiv = document.createElement("div");
+    countDiv.innerHTML = `<h2>Total Astronauts: ${astronauts.length}</h2>`;
+    
     astronauts.forEach(astronaut => {
         const astronautDiv = document.createElement("div");
+        astronautDiv.className = "astronaut";
         astronautDiv.innerHTML = `
-            <h3>${astronaut.firstName} ${astronaut.lastName}</h3>
-            <p>Skills: ${astronaut.skills.join(", ")}</p>
-            <p>Hours in Space: ${astronaut.hoursInSpace}</p>
+            <div class="bio">
+                <h2>${astronaut.firstName} ${astronaut.lastName}</h2>
+                <ul>
+                    <li>Hours in Space: ${astronaut.hoursInSpace}</li>
+                    <li style="color: ${astronaut.active ? 'green' : 'black'}">Active: ${astronaut.active ? "Yes" : "No"}</li>
+                    <li>Skills: ${astronaut.skills.join(", ")}</li>
+                </ul>
+            </div>
             <img src="${astronaut.picture}" alt="${astronaut.firstName} ${astronaut.lastName}" height="250" onerror="this.onerror=null;this.src='default.jpg';">
         `;
         container.appendChild(astronautDiv);
     });
 
+    container.appendChild(countDiv);
+    
     document.addEventListener("DOMContentLoaded", function() {
         fetch("<https://handlers.education.launchcode.org/static/astronauts.json>").then(function(response) {
             response.json().then(function(json){
 
-            })
+            });
         });
-
     });
-}
+};

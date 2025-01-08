@@ -13,32 +13,31 @@ h1 {
     justify-content: space-around;
 }
 
-#container div {
+.astronaut {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    width: 200px;
+    width: 500px;
     text-align: center;
 }
 
-#container img {
-    border-radius: 10px;
+.bio {
+    text-align: left;
 }
 
 .avatar {
-    border-radius: 50%;
-    height: 100px;
-    float:right;
+    border-radius: 10px;
+    width: 100%;
 }
 
 .astronaut {
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     width: 500px;
     align-items: center;
     padding: 5px;
     margin-bottom: 20px;
-    border-radius: 6px;
+    border-radius: 10px;
 }
