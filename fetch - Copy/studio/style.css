@@ -1,9 +1,12 @@
+/* Unsure */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 20px;/* Unsure */
 }
 
+/* Header "Astronaut" */
 h1 {
+<<<<<<<< HEAD:fetch - Copy/studio/style.css
     text-align: center;
 }
 
@@ -24,6 +27,9 @@ h1 {
 
 .bio {
     text-align: left;
+========
+    text-align: center;/* Centers h1 text */
+>>>>>>>> b87edeae1a5892640505b2d15848f74533cc753e:fetch/studio/style.css
 }
 
 .avatar {
@@ -31,7 +37,9 @@ h1 {
     width: 100%;
 }
 
+/* Border around Astronaut box*/
 .astronaut {
+<<<<<<<< HEAD:fetch - Copy/studio/style.css
     border: 1px solid rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
@@ -40,4 +48,30 @@ h1 {
     padding: 5px;
     margin-bottom: 20px;
     border-radius: 10px;
+========
+    border: 1px solid #ccc;/* Border around each Astronaut */
+    display: flex;/* Unsure */
+    justify-content: space-between; /* Unsure */
+    width: 500px;/* Set width of each Astronaut */
+    align-items: center;/* Unsure */
+    padding: 10px;/* Padding inside each Astronaut */
+    margin: 10px;/* Margin for each Astronaut */
+    border-radius: 10px;/* Border of Each Astronaut */
+    text-align: center; /* .bio overrides this */
+>>>>>>>> b87edeae1a5892640505b2d15848f74533cc753e:fetch/studio/style.css
+}
+
+/* Border around entire site*/
+#container {
+    display: flex; /* Displays across site*/
+    flex-wrap: wrap; /* Unsure */
+    justify-content: space-around; /* Justifies across page */
+
+    /*border:1px solid rgb(3, 190, 12) /* Not wanted */
+}
+
+/* Text of Astronaut */
+.bio {
+    /*color: black;/*   */
+    text-align: left;
 }
